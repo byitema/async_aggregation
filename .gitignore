@@ -1,9 +1,9 @@
 .idea
 
-/aiohttpService/config.ini
-/aiohttpService/client.py
-/aiohttpService/venv
+/aiohttp_service/config.ini
+/aiohttp_service/client.py
+/aiohttp_service/venv
 
-/flaskService/static
-/flaskService/templates
-/flaskService/venv
+/flask_service/static
+/flask_service/templates
+/flask_service/venv

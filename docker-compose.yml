@@ -1,11 +1,11 @@
 services:
     flask:
-        build: ../flaskService
+        build: ./flask_service
         restart: on-failure
         ports:
             - "5000-5004:5000"
     aiohttp:
-        build: .
+        build: ./aiohttp_service
         restart: on-failure
         ports:
             -  "8080:8080"
